@@ -32,6 +32,7 @@ namespace GregsListDotnet
             });
                 services.AddTransient<CarsService>();
                 services.AddTransient<CarsRepository>();
+                services.AddTransient<HousesService>();
                 services.AddSingleton<FakeDb>();
         }
 
